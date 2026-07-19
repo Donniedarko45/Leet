@@ -6,7 +6,7 @@ public:
         // dp[i] denotes at i th posistion what is the total possibility 
         //dp[n] will give me distinct ways to reach top
 
-        //transistion4 equation dp[i]= dp[i-1]+dp[]
+        //transistion4 equation dp[i]= dp[i-1]+dp[i-2]
         //base case
         dp[0]=1;
         dp[1]=1;
