@@ -2,8 +2,6 @@ class Solution {
 public:
     vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
         unordered_map<int,int>mp1;
-        unordered_map<int,int>mp2;
-        int n1=nums1.size();
         int n2=nums2.size();
         vector<int>ans;
         for(auto it:nums1){
