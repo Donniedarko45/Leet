@@ -30,7 +30,6 @@ public:
          for(int i=n-2;i>=0;i--){
             minii[i]=min(minii[i+1],nums[i]);
          }
-        vector<int>ans;
         for(int i=0;i<nums.size();i++){
             if((max[i]-minii[i])<=k){
                 return i;
